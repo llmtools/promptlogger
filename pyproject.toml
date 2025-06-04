@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptlogger"
+version = "0.1.0"
+description = "A simple prompt logging utility"
+authors = [{ name = "micky", email = "support@micky.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.7"
+dependencies = ["requests"]
+
+[project.urls]
+Homepage = "https://github.com/mjbbusiness/promptlogger"
